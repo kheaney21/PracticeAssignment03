@@ -49,4 +49,4 @@ public class QuickSort implements SortingAlgorithm {
 		arr[j] = temp;
 	
 	}
-}
+} 
