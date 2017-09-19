@@ -20,4 +20,4 @@ public class InsertionSort implements SortingAlgorithm {
 		arr[j] = temp;
 	
 	}
-}
+} 
