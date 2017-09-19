@@ -1,9 +1,5 @@
 public class MergeSort implements SortingAlgorithm {
 
-	int count = 0;
-	
-	//Problem: figure out base case, how to split array recursively
-
 	public void sort(int [] a) {
 		int[] top = new int[a.length/2 + 1];
 		int[] bottom = new int[a.length/2 + 1];
@@ -32,8 +28,6 @@ public class MergeSort implements SortingAlgorithm {
 		while(bottomIndex < bottom.length) {
 			a[arrIndex++] = bottom[bottomIndex++];
 		}
-		//count++;
-		//System.out.println(count);
 	}
 	
 }
